@@ -14,11 +14,11 @@ const ContactMeIcon = (props) => {
         alt="Linked In icon"
         iconPic="fab fa-linkedin"
       />
-      <Icon
+      {/* <Icon
         href="https://twitter.com/evanmorisato"
         alt="Twitter icon"
         iconPic="fab fa-twitter"
-      />
+      /> */}
       <Icon href="mailto:evanmorisato@gmail.com" alt="Email icon" iconPic="fas fa-envelope" />
       <Icon href="EvanMorisatoResume.docx" alt="resume icon" iconPic="far fa-file" />
     </div>
