@@ -34,11 +34,11 @@ const Footer = () => {
               alt="Linked In icon"
               iconPic="fab fa-linkedin"
             />
-            <Icon
+            {/* <Icon
               href="https://twitter.com/EvanMorisato"
               alt="Twitter icon"
               iconPic="fab fa-twitter"
-            />
+            /> */}
           </Col>
           <Col md={3}></Col>
         </Row>
@@ -46,7 +46,7 @@ const Footer = () => {
         <Container fluid>
           <Row noGutters style={{ marginBottom: "15px" }}>
             <Col md={4} className="text-center">
-              <SkillIcon name="evanmorisato@gmail.com" href="mailto:evanmorisato@gmail.com" alt="Email icon" iconPic="fas fa-envelope" color="000" iconSize="35px" marginTop="15px" fontSize="20px" />
+              <SkillIcon name="morisatoevan@gmail.com" href="mailto:morisatoevan@gmail.com" alt="Email icon" iconPic="fas fa-envelope" color="000" iconSize="35px" marginTop="15px" fontSize="20px" />
             </Col>
             <Col md={4} className="text-center">
               <SkillIcon name="Resume" href="EvanMorisatoResume.docx" alt="resume icon" iconPic="far fa-file" color="000" iconSize="35px" marginTop="15px" fontSize="20px" />
